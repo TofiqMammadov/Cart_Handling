@@ -183,7 +183,8 @@ function addToCart(product) {
         return;
     }
     CART.push(product);
-    alert('${product.quantity} x ${product.name} Added to Cart');
+    alert("Added");
+
 }
 
 function fillModal() {
