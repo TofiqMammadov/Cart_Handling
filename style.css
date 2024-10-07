@@ -120,17 +120,18 @@ li:hover{
     align-items: center;
     width: 100%;
     padding: 10px;
+    gap: 4px;
     border-top: 1px solid #ddd;
 }
 
 .card-footer__left{
     display: flex;
     align-items: center;
-    width: 45%;
+    width: 44%;
 
 }
 .card-footer__right{
-    width: 45%;
+    width: 44%;
     display: flex;
     align-items: center;
     font-size: 12px;
@@ -167,7 +168,8 @@ button{
 }
 #addToCart-btn{
     width: 100%;
-    padding: 4px ;
+    padding-left: 0;
+    padding-right: 0;
     @media (max-width:768px) {
         font-size: 10px;
     }

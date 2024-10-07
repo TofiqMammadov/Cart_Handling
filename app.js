@@ -120,6 +120,7 @@ function fillCategories() {
             }
         });
     });
+    categories.firstChild.classList.add("active");
 }
 
 function fillTable(DATAS) {
