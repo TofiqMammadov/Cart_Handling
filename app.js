@@ -183,7 +183,7 @@ function addToCart(product) {
         return;
     }
     CART.push(product);
-    console.log(product.name, product.quantity);
+    alert(product.quantity," x ",product.name," Added to Cart");
 }
 
 function fillModal() {
