@@ -236,7 +236,7 @@ function fillModal() {
         (acc, product) => acc + product.price * product.quantity,
         0
     );
-    totalAZN.textContent = Math.round(total);
+    totalAZN.textContent = total.toFixed(2);
 }
 
 
